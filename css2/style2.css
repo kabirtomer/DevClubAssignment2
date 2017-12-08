@@ -1,0 +1,50 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background: repeating-linear-gradient(
+    -45deg,
+    #151515,
+    #151515 8px,
+    #333333 8px,
+    #333333 16px
+    );
+    background-attachment: fixed;
+}
+span{
+	display: block;
+	font-size: 25px;
+	font-family: arial;
+	margin-top: 12px;
+	text-align: center;
+}
+
+table{
+	margin: 10px auto;
+	border: 0;
+	border-spacing: 0; 
+}
+
+div{
+	width: 54%;
+	color: #b0b0b0;
+	background-color: #3c3c3c;
+	border: 0px;
+	border-radius: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td{
+    padding: 0 ;
+}
+
+table img{
+	margin:6px;
+	display: block;
+	height: 165px;
+	width: 220px;
+	border-radius: 30px;
+}
+
