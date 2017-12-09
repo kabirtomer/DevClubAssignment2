@@ -10,6 +10,7 @@ background-color: #aacc90;
 	margin: 20px auto;
 	border-radius: 15px;
 	padding: 12px 0px;
+	min-width: 200px;
 }
 
 #input_row{
