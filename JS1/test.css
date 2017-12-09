@@ -12,8 +12,9 @@ background-color: #aacc90;
 	padding: 12px 0px;
 }
 
-.main div{
-	background-color: red;
+#input_row{
+	margin-top: 15px;
+	padding-left: 12px;
 }
 
 .heading{
@@ -66,4 +67,30 @@ div.entry:hover{
 div.entry.ticked:hover{
 	background-color: grey;
 }
+
+input{
+	margin-right: 15px; 
+	width: 50%;
+	display:inline-block;
+
+}
+
+#input_row span{
+	margin-left: 0px;
+	background-color: #8899DD;
+	padding: 3px 5px 3px 3px;
+	display: inline-block;
+	border-radius: 6px;
+	border: 2px solid black;
+}
+
+#input_row span:hover {
+	background-color: #6677AA;
+}
+
+
+#input_row .dark_button:hover{
+	background-color: #556699;
+}
+
 
