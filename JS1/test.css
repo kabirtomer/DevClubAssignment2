@@ -1,0 +1,69 @@
+body{
+font-family: cursive;
+background-color: #aacc90;
+}
+
+.main{
+	background-color: #dddd90;
+	border: 4px solid black;
+	width: 50%;
+	margin: 20px auto;
+	border-radius: 15px;
+	padding: 12px 0px;
+}
+
+.main div{
+	background-color: red;
+}
+
+.heading{
+	text-align: center;
+	margin: 0px auto;
+	width : 150px;
+}
+
+.close_button{
+	text-align: center;
+	line-height: 20px;
+	margin: 0px 5px 2px 0px;
+	width : 25px;
+	height: 24px;
+    border-radius: 5px;
+	background-color: #dd2e29;
+	display: block;
+	float: right;
+	color:black;
+
+}
+.main div.ticked{
+   text-decoration: line-through;
+   color : #000000;
+   background-color: grey
+   
+}
+
+.close_button:hover{
+		background-color: red;
+
+}
+
+
+div.entry{
+	background-color: #Fd971f;
+	margin: 0px 0px;
+	padding: 3px 0px 3px 15px;
+	border : 1px dashed black; 
+	color: #FFFFFF;
+	overflow: hidden;
+}
+
+
+
+div.entry:hover{
+	background-color: #dd7706;
+}
+
+div.entry.ticked:hover{
+	background-color: grey;
+}
+
