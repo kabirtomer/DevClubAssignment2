@@ -29,7 +29,7 @@ body{
 .heading{
 	text-align: center;
 	margin: 0px auto;
-	width : 200px;
+	width : 200;
 	font-size: 28px;'
     font-style: italic;
     font-weight: bold;
@@ -48,6 +48,22 @@ body{
 	display: block;
 	float: right;
 	color:black;
+	opacity: 0;
+
+}
+.edit_button{
+	text-align: center;
+	line-height: 20px;
+	margin: 0px 5px 2px 0px;
+	width : auto;
+	height: 24px;
+    border-radius: 5px;
+    border: 1px solid black;
+	background-color: #ddffff;
+	display: block;
+	float: right;
+	color:black;
+	opacity: 0;
 
 }
 .main div.ticked{
@@ -101,6 +117,8 @@ input{
 #input_row span:hover {
 	background-color: #6677AA;
 }
+
+
 
 
 #input_row .dark_button:hover{
